@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/sergei/Documents/Samopal/Yandex_contest/Interesting_travel/build",
+  "command": "/usr/bin/g++  -I/home/sergei/Documents/Samopal/Yandex_contest/Interesting_travel/build -g -Wall -Wextra -pedantic -Werror -Wshadow -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -std=gnu++17 -o CMakeFiles/Interesting_travel.dir/main.cpp.o -c /home/sergei/Documents/Samopal/Yandex_contest/Interesting_travel/main.cpp",
+  "file": "/home/sergei/Documents/Samopal/Yandex_contest/Interesting_travel/main.cpp"
+}
+]

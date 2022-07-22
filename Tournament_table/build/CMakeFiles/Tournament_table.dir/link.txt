@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/Tournament_table.dir/main.cpp.o -o Tournament_table 

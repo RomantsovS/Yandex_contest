@@ -1,0 +1,3 @@
+/home/sergei/Documents/Samopal/Yandex_contest/Tournament_table/build/CMakeFiles/Tournament_table.dir
+/home/sergei/Documents/Samopal/Yandex_contest/Tournament_table/build/CMakeFiles/edit_cache.dir
+/home/sergei/Documents/Samopal/Yandex_contest/Tournament_table/build/CMakeFiles/rebuild_cache.dir
