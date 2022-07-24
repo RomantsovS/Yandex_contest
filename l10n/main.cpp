@@ -19,7 +19,6 @@ void f(istream& is, ostream& os) {
     is >> n;
 
     vector<string> words(n);
-    string str;
 
     set<pair<string_view, string_view>> prefixes;
 
@@ -81,7 +80,7 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
-    if (false) {
+    if (true) {
         {
             istringstream iss(R"(2
 localization
