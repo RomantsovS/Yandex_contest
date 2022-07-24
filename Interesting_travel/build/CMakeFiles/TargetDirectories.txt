@@ -1,3 +1,0 @@
-/home/sergei/Documents/Samopal/Yandex_contest/Interesting_travel/build/CMakeFiles/Interesting_travel.dir
-/home/sergei/Documents/Samopal/Yandex_contest/Interesting_travel/build/CMakeFiles/edit_cache.dir
-/home/sergei/Documents/Samopal/Yandex_contest/Interesting_travel/build/CMakeFiles/rebuild_cache.dir

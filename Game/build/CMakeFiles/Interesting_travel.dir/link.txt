@@ -1,1 +1,0 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/Interesting_travel.dir/main.cpp.o -o Interesting_travel 

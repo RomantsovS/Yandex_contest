@@ -1,3 +1,0 @@
-/home/sergei/Documents/Samopal/Yandex_contest/Difficult_numbes/build/CMakeFiles/Interesting_travel.dir
-/home/sergei/Documents/Samopal/Yandex_contest/Difficult_numbes/build/CMakeFiles/edit_cache.dir
-/home/sergei/Documents/Samopal/Yandex_contest/Difficult_numbes/build/CMakeFiles/rebuild_cache.dir
