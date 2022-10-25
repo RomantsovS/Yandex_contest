@@ -11,6 +11,7 @@ add_executable(Tournament_table Tournament_table.cpp)
 add_executable(WalletsAndCoins WalletsAndCoins.cpp)
 add_executable(Interesting_travel Interesting_travel.cpp)
 add_executable(Dividing_a_number Dividing_a_number.cpp)
+add_executable(MaximumDamage MaximumDamage.cpp)
 
 set_target_properties(Difficult_numbes PROPERTIES
     CXX_STANDARD 17
@@ -31,3 +32,4 @@ target_compile_options(Tournament_table PRIVATE ${MY_COMLILE_OPTIONS})
 target_compile_options(WalletsAndCoins PRIVATE ${MY_COMLILE_OPTIONS})
 target_compile_options(Interesting_travel PRIVATE ${MY_COMLILE_OPTIONS})
 target_compile_options(Dividing_a_number PRIVATE ${MY_COMLILE_OPTIONS})
+target_compile_options(MaximumDamage PRIVATE ${MY_COMLILE_OPTIONS})
