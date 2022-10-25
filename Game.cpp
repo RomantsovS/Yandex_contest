@@ -15,8 +15,8 @@ string f(istream& is) {
     size_t p = 0;
     size_t v = 0;
 
-    size_t p_val;
-    size_t v_val;
+    size_t p_val = 0;
+    size_t v_val = 0;
 
     for (size_t i = 0; i < n; i += 3) {
         is >> p_val;

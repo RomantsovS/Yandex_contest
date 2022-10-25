@@ -5,30 +5,35 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <set>
 
 using namespace std;
 
-size_t wsf(const vector<vector<int>>& g, int v, int u) {
-    queue<int> q;
+int wsf(const vector<vector<int>>& g, size_t v, size_t u) {
+    queue<size_t> q;
 
     q.push(v);
 
-    vector<int> d(g.size(), -1);
-    d[v] = 0;
+    set<size_t> visited;
+    int step = 0;
 
     while (!q.empty()) {
-        int k = q.front();
+        size_t size = q.size();
+        for (size_t i = 0; i < size; ++i) {
+            size_t cur = q.front();
+            q.pop();
 
-        if (k == u) return d[u];
+            visited.insert(cur);
 
-        q.pop();
+            if (cur == u)
+                return step;
 
-        for (size_t i = 0; i < g.size(); ++i) {
-            if (g[k][i] > 0 && d[i] == -1) {
-                d[i] = d[k] + 1;
-                q.push(i);
+            for (size_t next = 0; next < g.size(); ++next) {
+                if (g[cur][next] > 0 && visited.count(next) == 0)
+                    q.push(next);
             }
         }
+        ++step;
     }
 
     return -1;
@@ -62,13 +67,13 @@ int f(istream& is) {
         }
     }
 
-    // for (size_t i = 0; i < n; ++i) {
-    //     for (size_t j = 0; j < n; ++j) {
-    //         if (j != 0) cout << ", ";
-    //         cout << std::setw(4) << g[i][j];
-    //     }
-    //     cout << endl;
-    // }
+     /*for (size_t i = 0; i < n; ++i) {
+         for (size_t j = 0; j < n; ++j) {
+             if (j != 0) cout << ", ";
+             cout << std::setw(4) << g[i][j];
+         }
+         cout << endl;
+     }*/
 
     size_t a, b;
     is >> a >> b;
@@ -78,7 +83,7 @@ int f(istream& is) {
 }
 
 int main() {
-    if (false) {
+    if (true) {
         {
         istringstream iss(R"(7
 0 0
